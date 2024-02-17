@@ -1,4 +1,4 @@
-# Student-Mentor App - Client side
+# Student-Mentor App - Server side
 
 This app is an online coding application with the following pages and features"
 
@@ -21,7 +21,3 @@ Assuming that the first user who opens the code block page is the mentor, after 
 * A code block has the fields ‘title’ and ‘code’ (code is a string that represents JS code).
 * There are clear comments to the code where needed.
 * There's a “solution” on a code block object (which was inserted manually), once the student changes the code to be equal to the solution, a big smiley face shows on the screen :)
-
-link to the deployment project:
-
-
