@@ -4,6 +4,7 @@ const app = express();
 const http = require("http");
 const { Server } = require("socket.io");
 const cors = require("cors");
+const port = process.env.PORT || 3001;
 
 // Enable CORS (Cross-Origin Resource Sharing) for the Express app
 app.use(cors());
@@ -63,7 +64,7 @@ io.on("connection", (socket) => {
   });
 });
 
-// Start the server and listen on port 3001
-server.listen(3001, () => {
+// Start the server and listen on port
+server.listen(port, () => {
   console.log("SERVER IS RUNNING");
 });
