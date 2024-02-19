@@ -16,7 +16,7 @@ const server = http.createServer(app);
 const io = new Server(server, {
   // Configure CORS for the Socket.IO server
   cors: {
-    origin: "http://localhost:3000", // Specify the allowed origin (client's address)
+    origin: "https://studentmentorapp-client.netlify.app", // Specify the allowed origin (client's address)
     methods: ["GET", "POST"], // Specify allowed HTTP methods
   },
 });
